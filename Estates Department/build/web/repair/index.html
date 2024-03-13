@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <h1>Reporting Repair</h1>
+        <form action="index.jsp" method="get">
+        <table cellspacing="5"  border="0">
+            <tr>
+                <td>Staff_Id</td>
+                <td><input type="text" name="Staff_Id"></td>
+            </tr>
+             <tr>
+                <td>Name</td>
+                <td><input type="text" name="Name"></td>
+            </tr>
+             <tr>
+                <td>department_name</td>
+                <td><input type="text" name="department_name"></td>
+            </tr>
+             <tr>
+                <td>Building_no</td>
+                <td><input type="text" name="Building_no"></td>
+            </tr>
+            <tr>
+                <td>Repair</td>
+                        <td><select name="Repair">
+                                <option value="">
+                                <option value="replacing bulb">replacing bulb</option>
+                                <option value="replace lock">replace lock</option>                     
+                                <option value="broken glass">broken glass</option>
+                                <option value="socket">socket</option>
+                                <option value="roof leak">roof leak</option>
+                                
+                            </select>
+                            
+                        </td>
+                          
+            </tr>
+            <tr>
+                <td></td>
+                <td><br><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>

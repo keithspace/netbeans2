@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Estates Department Repair Reporting</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Login
+            <form action="login.jsp" method="post">
+                <p>
+                    Username: <br>
+                    <input type="text" name="username" placeholder="Enter your username"><br><br>
+                    Password: <br>
+                    <input type="password" name="password" placeholder="Enter your password"><br><br>
+                    <a href="forgotpassword.html">Forgot password?</a><br><br>
+                    <input type="submit" value="Login"<br><br>
+                    Don't have an account? <a href="http://localhost:8081/WebApplication2/">Sign Up</a>
+                </p>
+            </form>
+        </div>
+    </body>
+</html>
